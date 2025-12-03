@@ -1,17 +1,22 @@
-Movie Recommender System (MovieLens 100k)
+#Movie Recommender System (MovieLens 100k)
 
-This project implements a simple movie recommendation system using:
+This project implements a simple movie recommendation system using: **Python**, **Surprise (SVD collaborative filtering)**, **Streamlit**, **MovieLens 100k dataset**, **Manual anti-testset logic (no build_anti_testset)**, **Direct file paths only (no os, no pathlib)**. The system predicts ratings for unseen movies and recommends the top-N movies to a given user.
 
-Python
+##Features
 
-Surprise (SVD collaborative filtering)
+- Collaborative filtering using SVD
 
-Streamlit for the user interface
+- Manual creation of anti-testset
 
-MovieLens 100k dataset
+- Streamlit UI for easy interaction
 
-Manual anti-testset logic (no build_anti_testset)
+- Clean training and prediction pipeline
 
-Direct file paths only (no os, no pathlib)
+- Notebook included for reproducibility
 
-The system predicts ratings for unseen movies and recommends the top-N movies to a given user.
+
+
+
+
+
+
