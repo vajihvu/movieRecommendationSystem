@@ -1,0 +1,6 @@
+numpy>=1.19.5,
+git+https://github.com/NicolasHug/Surprise.git,
+streamlit,
+pandas,
+pickle,
+collections
