@@ -1,6 +1,6 @@
-numpy>=1.19.5,
-git+https://github.com/NicolasHug/Surprise.git,
 streamlit,
 pandas,
+numpy<2,
+git+https://github.com/NicolasHug/Surprise.git,
 pickle,
 collections
